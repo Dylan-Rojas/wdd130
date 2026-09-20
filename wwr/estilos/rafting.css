@@ -1,10 +1,4 @@
-*{
-  margin: 0; 
-  padding: 0; 
-  box-sizing: border-box; 
-}
-
-:root {
+:root{
   --cor-primaria: #055a05;
   --cor-secundaria: #f4a261;
   --cor-destaque1: #264653;
@@ -13,82 +7,61 @@
   --fonte-body: Arial, Helvetica, sans-serif;
 }
 
-body {
-  font-family: var(--fonte-body);
-  margin: 0;
-  line-height: 1.6;
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+
 }
 
-/* Header */
-header {
-  background-color: var(--cor-primaria);
-  color: var(--cor-destaque2);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 15px;
-}
-header nav ul {
-  list-style: none;
-  display: flex;
-  gap: 20px;
-}
-header nav a {
-  color: var(--cor-destaque2);
-  text-decoration: none;
-  font-weight: bold;
+body{
+  font-family:var(--fonte-body);
+  color:var(--cor-destaque1);
 }
 
+header, main, footer{
+  width: 840px;
+  margin: 0 auto;
+}
 
-.hero {
+h1, h2{
+  font-family:var(--fonte-titulo);
+  color:var(--cor-primaria);
+  text-align: center;
+}
+
+nav, p, section, article{
+  margin: 16px;
+  padding: 8px;
+}
+
+.redes-sociais{
+  text-decoration:none;
+}
+
+.hero{
   position:relative;
-  
-  background-size: cover;
-  background-position: center;
-  height: 500px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
-  
+}
+
+.hero img{
+  display: block;
+  width:100%;
+  height:auto;
 }
 
 
-article {
-  position: absolute;
-  top: 70%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: var(--cor-secundaria);
-  color: var(--cor-destaque1);
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
-  width: 60%;
+h1{
+  position:absolute;
+  top: 20px;
+  width: 100px;
+  padding: 16px;
   text-align: center;
+  opacity:0.7;
+  background-color:var(--cor-destaque1);
+  color:#fff;
 }
 
-
-section {
-  padding: 40px;
+.hero article img{
+  float:right;
+  width: 125px;
 }
-section h2 {
-  font-family: var(--fonte-titulo);
-  color: var(--cor-primaria);
-  margin-bottom: 15px;
-}
-
-
-footer {
-  background-color: var(--cor-destaque1);
-  color: white;
-  text-align: center;
-  padding: 20px;
-}
-footer .redes-sociais a {
-  margin: 0 10px;
-}
-
-
