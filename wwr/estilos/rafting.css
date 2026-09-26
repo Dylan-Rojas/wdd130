@@ -43,10 +43,13 @@ article {
 }
 
 
-.socialmedia a,
-.redes-sociais a {
+.socialmedia a {
   text-decoration: none;
   color: var(--cor-secundaria);
+}
+
+.redes-sociais a {
+  text-decoration: none;
 }
 
 
