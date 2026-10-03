@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title> Contato </title>
+
+  <meta name="description"
+    content="Entre em contato para tirar dúvidas, fazer reservas ou solicitar informações.">
+  <meta name="author" content="Dylan Rojas">
+
+  <link rel="stylesheet" href="estilos/rafting.css">
+</head>
+
+<body>
+
+  <header>
+    <img src="imagens/agua_brava.png" alt="Imagem de capa">
+
+    <nav>
+      <a href="index.html">Página Inicial</a>
+      <a href="sobre.html">Sobre Nós</a>
+      <a href="passeios.html">Passeios</a>
+      <a href="contato.html">Fale Conosco</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="contact-info">
+      <h1>Companhia de Rafting </h1>
+
+      <p><strong>Endereço:</strong> 123 Rua Principal </p>
+      <p><strong>Cidade:</strong> Paraná</p>
+      <p><strong>Telefone:</strong> +55 45 99999-9999</p>
+      <p><strong>E-mail:</strong> info@aventurarafting.com</p>
+    </section>
+
+    <section class="contact-container">
+
+
+      <div class="contact-form">
+
+
+        <div>
+          <label for="name">Nome</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+
+        <div>
+          <label for="email">E-mail</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+
+        <fieldset>
+          <legend>Propósito da Mensagem</legend>
+
+          <label>
+            <input type="radio" name="purpose" value="general" required>
+            Consulta Geral
+          </label>
+
+          <label>
+            <input type="radio" name="purpose" value="reservation">
+            Pergunta sobre Reserva
+          </label>
+
+          <label>
+            <input type="radio" name="purpose" value="suggestion">
+            Sugestão de Site
+          </label>
+        </fieldset>
+
+        <div>
+          <label for="message">Mensagem</label>
+          <textarea id="message" name="message" rows="6"></textarea>
+        </div>
+
+        <div>
+          <label>
+            <input type="checkbox" name="newsletter">
+            Quero receber a newsletter mensal
+          </label>
+        </div>
+
+        <button type="submit">
+          Entrar em Contato!
+        </button>
+
+        </form>
+      </div>
+
+    </section>
+
+    <section class="employees">
+      <h2>Estamos Aqui para Servi-lo</h2>
+
+      <div class="employee-gallery">
+
+        <figure>
+          <img src="imagens/atendente 1.webp" alt="">
+          <figcaption>Carlos - Atendimento</figcaption>
+        </figure>
+
+        <figure>
+          <img src="imagens/atendente 2.webp" alt="">
+          <figcaption>Ana - Atendimento</figcaption>
+        </figure>
+
+        <figure>
+          <img src="imagens/atendente 3.jpeg" alt="">
+          <figcaption>Pedro - Atendimento</figcaption>
+        </figure>
+
+      </div>
+    </section>
+
+
+  </main>
+
+  <footer>
+    <p>&copy; --Contatos--</p>
+
+    <nav class="socialmedia ">
+      <a href="https://www.facebook.com">
+        <img src="imagens/facebook-icon.png" alt="Facebook">
+      </a>
+
+      <a href="https://www.instagram.com">
+        <img src="imagens/instagram-icon.png" alt="Instagram">
+      </a>
+
+      <a href="https://www.linkedin.com">
+        <img src="imagens/linkedin-icon.png" alt="LinkedIn">
+      </a>
+    </nav>
+  </footer>
+
+</body>
+
+</html>
