@@ -263,3 +263,60 @@ footer p {
   width: 200px;
   height: auto;
 }
+
+.cta {
+  text-align: center;
+  padding: 40px;
+  background-color: #e8f4ff;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #005a9c;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.trip-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 30px;
+}
+
+.trip-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.trip-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.trip-table {
+  padding: 30px;
+}
+
+.trip-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.trip-table th,
+.trip-table td {
+  border: 1px solid #ccc;
+  padding: 12px;
+  text-align: center;
+}
+
+.trip-table th {
+  background-color: #005a9c;
+  color: white;
+}
